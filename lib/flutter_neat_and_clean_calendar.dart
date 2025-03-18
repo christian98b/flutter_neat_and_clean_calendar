@@ -650,7 +650,7 @@ class _CalendarState extends State<Calendar> {
               childAspectRatio: MediaQuery.sizeOf(context).width < 400
                   ? 1.5
                   : MediaQuery.sizeOf(context).width < 800
-                      ? 1.8
+                      ? 1.7
                       : 4.5,
               primary: false,
               shrinkWrap: true,

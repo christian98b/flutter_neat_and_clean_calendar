@@ -106,3 +106,6 @@ build/
 !**/macos/**/default.mode2v3
 !**/macos/**/default.pbxuser
 !**/macos/**/default.perspectivev3
+
+# FVM Version Cache
+.fvm/

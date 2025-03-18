@@ -647,7 +647,8 @@ class _CalendarState extends State<Calendar> {
         child: Column(
           children: <Widget>[
             GridView.count(
-              childAspectRatio: 1.5,
+              childAspectRatio:
+                  MediaQuery.sizeOf(context).width < 900 ? 1.5 : 4.5,
               primary: false,
               shrinkWrap: true,
               crossAxisCount: 7,
